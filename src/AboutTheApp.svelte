@@ -16,7 +16,7 @@
     <h4>License and Source Code</h4>
     <p>This application is made freely available for anyone to use, copy and modify under the
         <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">GNU General Public License v3</a>. You may view this
-        application's source code and license on <a href="https://github.com/phalanx-software/esef-hash">GitHub</a>.</p>
+        application's source code and license on <a href="https://github.com/phalanx-software/esef_hash">GitHub</a>.</p>
 </Col>
 <Col md="4">
     <h3>About Hashing</h3>
