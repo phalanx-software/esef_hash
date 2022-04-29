@@ -16,7 +16,7 @@
         an unconsolidated financial statements file either in ZIP or XHTML format:
     </div>
     <div class="dropzone">
-        <Dropzone accept="application/xhtml+xml,text/html,application/zip" multiple="false"
+        <Dropzone accept=".zip,.xhtml,.html,.htm" multiple="false"
                   on:dropaccepted={handleAccepted}>
         </Dropzone>
     </div>
