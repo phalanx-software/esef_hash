@@ -21,7 +21,7 @@
     <Row>
         {#if (!uploaded)}
             <FileSelector on:uploaded={event => uploaded = event.detail}/>
-        {:else if (uploaded.type === "application/zip")}
+        {:else if (uploaded.name.toLowerCase().endsWith(".zip"))}
             <Archive archive={uploaded}/>
         {:else}
             <SingleReport report={uploaded}/>
