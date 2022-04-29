@@ -55,6 +55,7 @@
     is given below.</p>
 
 {#await reports}
+    <p>Searching the archive for report files.</p>
 {:then reports}
     {#each reports as report}
         <Report report={report}/>
@@ -62,7 +63,7 @@
         <Alert color="warning">The system could not detect any report files within the uploaded ZIP package</Alert>
     {/each}
 {:catch error}
-    An error occurred while searching for report files within the archive.
+    <p>An error occurred while searching for report files within the archive.</p>
 {/await}
 
 <style>
